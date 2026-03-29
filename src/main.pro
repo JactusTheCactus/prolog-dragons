@@ -1,5 +1,3 @@
-use_module(library(lambda)).
-use_module(library(apply)).
 texture(Texture, Env) :-
 	(
 		member(Texture, [scales, leather]);
