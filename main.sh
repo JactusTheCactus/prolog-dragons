@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -uo pipefail
-if (( $# > 0 )); then
-	args=("$@")
-else
-	args=(
+if (( $# > 0 ))
+	thenbargs=("$@")
+	else args=(
 		sea
 		scales
 		2
