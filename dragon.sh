@@ -2,8 +2,10 @@
 set -uo pipefail
 get() {
 	local -n _out=$1
+	local msg
 	msg=$2
 	shift 2
+	local args
 	args=("$@")
 	while true; do
 		echo "$msg"
